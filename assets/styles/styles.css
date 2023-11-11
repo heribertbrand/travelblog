@@ -63,11 +63,11 @@ body {
     color: #fff;
   }
 
-  .hero-about--phoneview {
+  .hero-about-phoneview {
     display: none;
   }
 
-  .hero-about--phoneview a {
+  .hero-about-phoneview a {
     text-decoration: none;
   }
 
@@ -90,7 +90,6 @@ body {
     font-size: 12px;
   }
 
-  
   .content-card-period a {
     text-decoration: none;
     color: #fff;
@@ -369,7 +368,7 @@ body {
     width: 8vw;
   }
 
-  .content-rating--big {
+  .content-rating-big {
     width: 15vw;
   }
 
@@ -443,7 +442,7 @@ body {
     padding: 5px 10px;
   }
 
-  .content-testimonial-slider--active {
+  .content-testimonial-slider-active {
     width: 12vw;
     border-radius: 2px;
     padding: 5px 10px;
@@ -535,7 +534,7 @@ body {
     font-weight: 900;
   }
 
-  .about-icons-wrap{
+  .about-icons-wrap {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -557,20 +556,20 @@ body {
     font: 900;
   }
 
-  .about-icons-holder--edit1 {
+  .about-icons-holder-edit1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px 5px 3px 5px;
+    padding: 4px 5px 3px;
     border-radius: 70px;
     background-color: #fff;
   }
 
-  .about-icons-holder--edit2 {
+  .about-icons-holder-edit2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 5px 2px 5px;
+    padding: 5px 5px 2px;
     border-radius: 60px;
     background-color: #fff;
   }
@@ -590,7 +589,7 @@ body {
   .about-links-type {
     text-transform: uppercase;
     background-color: #fff;
-    color: #0000aa;
+    color: #00a;
     padding: 1px 10px;
     border-radius: 20px;
     font-size: 14px;
@@ -624,7 +623,7 @@ body {
     text-align: center;
     font-size: 12px;
     padding: 20px 10px;
-    color: #00000099;
+    color: #0009;
   }
 
 }
