@@ -41,7 +41,7 @@ body {
     width: 100%;
   }
 
-  .hero__navbarPhoneview {
+  .hero-navbarPhoneview {
     display: flex;
     align-items: center;
     position: fixed;
@@ -63,15 +63,15 @@ body {
     color: #fff;
   }
 
-  .hero__about--phoneview {
+  .hero-about--phoneview {
     display: none;
   }
 
-  .hero__about--phoneview a {
+  .hero-about--phoneview a {
     text-decoration: none;
   }
 
-  .hero__about {
+  .hero-about {
     text-align: center;
     display: none;
     flex-flow: column;
@@ -84,26 +84,26 @@ body {
     border-bottom-left-radius: 5px;
   }
 
-  .hero__about a {
+  .hero-about a {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
   }
 
-  .hero__about a:hover {
+  .hero-about a:hover {
     background-color: #0000ff;
     border-radius: 20px;
     padding: 0 10px;
   }
 
-  .hero__btns-holder {
+  .hero-btns-holder {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
   }
   
-  .hero__btns-holder .hero__btns {
+  .hero-btns-holder .hero-btns {
     background-color: #0000ffa9;
     color: #fff;
     border: 0.5px solid #fff;
@@ -112,7 +112,7 @@ body {
     font-size: 13px;
   }
 
-  .hero__text {
+  .hero-text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +123,7 @@ body {
     padding: 5px 0;
   }
 
-  .hero__phrase {
+  .hero-phrase {
     color:  #fff;
     text-align: center;
     font-size: 38px;
@@ -132,7 +132,7 @@ body {
 
   }
   
-  .hero__watch-vid {
+  .hero-watch-vid {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,14 +146,14 @@ body {
     padding: 0 3px;
   }
 
-  .hero__watch-vid__icon {
+  .hero-watch-vid-icon {
     width: 10vw;
     background-color: #0000ffa9;
     border-radius: 70px;
     border: none; 
   }
 
-  .hero__stat {
+  .hero-stat {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +167,7 @@ body {
     top: 38%;
   }
 
-  .hero__stat-hand {
+  .hero-stat-hand {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,24 +176,24 @@ body {
     width: 100%;
   }
 
-  .hero__stat-hand:hover {
+  .hero-stat-hand:hover {
     border-radius: 30px;
     box-shadow: 5px 10px 50px 0;
     background-color: rgb(255, 255, 255);
     width: 100%;
   }
 
-  .hero__stat-icon-holder {
+  .hero-stat-icon-holder {
     padding: 5px 10px;
   }
 
-  .hero__stat-icon {
+  .hero-stat-icon {
     width: 8vw;
     border: 0.5px solid #a9a9a9dc;
     border-radius: 5px;
   }
 
-  .hero__stat-text {
+  .hero-stat-text {
     color: #fff;
     display: flex;
     align-items: center;
@@ -204,28 +204,28 @@ body {
     text-transform: capitalize;
   }
 
-  .hero__stat-text:hover {
+  .hero-stat-text:hover {
     color: #0000ff;
   }
 
-  .hero__drop-down {
+  .hero-drop-down {
     border: none;
     color: #fff;
     background-color: #ffffff00;
     font-size: 15.5px;
   }
 
-  .hero__drop-down:hover {
+  .hero-drop-down:hover {
     color: #0000ff;
   }
 
-  .hero__search-holder {
+  .hero-search-holder {
     background-color: #0000ff;
     border-radius: 8px;
     padding: 10px;
   }
 
-  .hero__search-icon {
+  .hero-search-icon {
     width: 8vw;
     align-self: center;
   }
