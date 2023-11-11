@@ -41,7 +41,7 @@ body {
     width: 100%;
   }
 
-  .hero-navbarPhoneview {
+  .heroNavbarPhoneview {
     display: flex;
     align-items: center;
     position: fixed;
@@ -79,7 +79,7 @@ body {
     padding: 0 10px;
     position: relative;
     top: 150%;
-    border-bottom: ridge 0.5px #0000ff;
+    border-bottom: ridge 0.5px #00f;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
@@ -91,7 +91,7 @@ body {
   }
 
   .hero-about a:hover {
-    background-color: #0000ff;
+    background-color: #00f;
     border-radius: 20px;
     padding: 0 10px;
   }
@@ -102,7 +102,7 @@ body {
     justify-content: center;
     flex-flow: wrap;
   }
-  
+
   .hero-btns-holder .hero-btns {
     background-color: #0000ffa9;
     color: #fff;
@@ -124,12 +124,11 @@ body {
   }
 
   .hero-phrase {
-    color:  #fff;
+    color: #fff;
     text-align: center;
     font-size: 38px;
     text-transform: capitalize;
     line-height: 40px;
-
   }
   
   .hero-watch-vid {
@@ -150,7 +149,7 @@ body {
     width: 10vw;
     background-color: #0000ffa9;
     border-radius: 70px;
-    border: none; 
+    border: none;
   }
 
   .hero-stat {
@@ -179,7 +178,7 @@ body {
   .hero-stat-hand:hover {
     border-radius: 30px;
     box-shadow: 5px 10px 50px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
 
@@ -205,7 +204,7 @@ body {
   }
 
   .hero-stat-text:hover {
-    color: #0000ff;
+    color: #00f;
   }
 
   .hero-drop-down {
