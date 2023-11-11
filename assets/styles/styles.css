@@ -90,6 +90,12 @@ body {
     font-size: 12px;
   }
 
+  
+  .content-card-period a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .hero-about a:hover {
     background-color: #00f;
     border-radius: 20px;
@@ -215,7 +221,7 @@ body {
   }
 
   .hero-drop-down:hover {
-    color: #0000ff;
+    color: #00f;
   }
 
   .hero-search-holder {
@@ -347,11 +353,6 @@ body {
     align-self: flex-start;
     padding: 10px 5px 0;
     font-size: 1em;
-  }
-
-  .content-card-period a {
-    text-decoration: none;
-    color: #fff;
   }
 
   .content-card-type {
@@ -507,7 +508,7 @@ body {
     padding: 5px 10px;
   }
 
-  .about__links {
+  .about-links {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -515,7 +516,7 @@ body {
     gap: 0.5rem;
   }
 
-  .about__links-social {
+  .about-links-social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,17 +525,17 @@ body {
     padding: 10px 0;
   }
 
-  .about__logo {
+  .about-logo {
     font-size: 28px;
     color: #00a;
   }
 
-  .about__links-social-caption {
+  .about-links-social-caption {
     text-align: center;
     font-weight: 900;
   }
 
-  .about__icons-wrap{
+  .about-icons-wrap{
     display: flex;
     align-items: center;
     justify-content: left;
@@ -542,7 +543,7 @@ body {
     gap: 1rem;
   }
 
-  .about__icons-holder {
+  .about-icons-holder {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -551,12 +552,12 @@ body {
     border-radius: 50px;
   }
 
-  .about__icons {
+  .about-icons {
     width: 5vw;
     font: 900;
   }
 
-  .about__icons-holder--edit1 {
+  .about-icons-holder--edit1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -565,7 +566,7 @@ body {
     background-color: #fff;
   }
 
-  .about__icons-holder--edit2 {
+  .about-icons-holder--edit2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -574,7 +575,7 @@ body {
     background-color: #fff;
   }
 
-  .about__links-block {
+  .about-links-block {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -586,7 +587,7 @@ body {
     gap: 1rem;
   }
 
-  .about__links-type {
+  .about-links-type {
     text-transform: uppercase;
     background-color: #fff;
     color: #0000aa;
@@ -595,7 +596,7 @@ body {
     font-size: 14px;
   }
 
-  .about__block-links {
+  .about-block-links {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -603,12 +604,12 @@ body {
     gap: 0.3rem;
   }
 
-  .about__block-links a {
+  .about-block-links a {
     text-decoration: none;
     color: #fff;
   }
 
-  .about__rights {
+  .about-rights {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -619,7 +620,7 @@ body {
     border-radius: 10px;
   }
 
-  .about__rights-text {
+  .about-rights-text {
     text-align: center;
     font-size: 12px;
     padding: 20px 10px;
