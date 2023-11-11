@@ -548,7 +548,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #0000ff;
-    padding: 4px 4px 0 4px;
+    padding: 4px 4px 0;
     border-radius: 50px;
   }
 
@@ -575,56 +575,56 @@ body {
     background-color: #fff;
   }
 
- .about__links-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  border-top: 3px ridge;
-  border-radius: 10px;
-  width: 100vw;
-  padding: 10px 5px;
-  gap: 1rem;
- }
+  .about__links-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    border-top: 3px ridge;
+    border-radius: 10px;
+    width: 100vw;
+    padding: 10px 5px;
+    gap: 1rem;
+  }
 
- .about__links-type {
-  text-transform: uppercase;
-  background-color: #fff;
-  color: #0000aa;
-  padding: 1px 10px;
-  border-radius: 20px;
-  font-size: 14px;
- }
+  .about__links-type {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #0000aa;
+    padding: 1px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
 
- .about__block-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  gap: 0.3rem;
- }
+  .about__block-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 0.3rem;
+  }
 
- .about__block-links a {
-  text-decoration: none;
-  color: #fff;
- }
+  .about__block-links a {
+    text-decoration: none;
+    color: #fff;
+  }
 
- .about__rights {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  width: 100vw;
-  background-color: #0000ffd4;
-  border-top: ridge 4px #0000ffa9;
-  border-radius: 10px;
- }
+  .about__rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100vw;
+    background-color: #0000ffd4;
+    border-top: ridge 4px #0000ffa9;
+    border-radius: 10px;
+  }
 
- .about__rights-text {
-  text-align: center;
-  font-size: 12px;
-  padding: 20px 10px;
-  color: #00000099;
- }
+  .about__rights-text {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 10px;
+    color: #00000099;
+  }
 
 }
