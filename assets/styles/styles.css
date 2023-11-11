@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 @media screen and (max-width: 320px) {
@@ -17,12 +17,12 @@ body {
     height: 100vh;
     margin-bottom: 140px;
   }
-  
+
   .hero {
     display: flex;
     align-items: center;
     flex-flow: column;
-    background-image: linear-gradient(#fff1, rgba(0, 0, 255, 0.318)), url('./images/hero-image.jpg');
+    background-image: linear-gradient(#fff1, #0000ff51), url("./images/hero-image.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ body {
     height: 100vh;
     gap: 1.5rem;
   }
-  
+
   .hero-navbar {
     display: flex;
     align-items: center;
@@ -40,8 +40,8 @@ body {
     flex-flow: column;
     width: 100%;
   }
-  
-  .hero__navbar__phoneview {
+
+  .hero__navbarPhoneview {
     display: flex;
     align-items: center;
     position: fixed;
@@ -58,11 +58,11 @@ body {
     border-bottom: ridge 4px #0000ffa9;
   }
 
-  .hero__logo {
+  .hero-logo {
     font-size: 30px;
     color: #fff;
   }
-  
+
   .hero__about--phoneview {
     display: none;
   }
