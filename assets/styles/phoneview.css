@@ -1622,7 +1622,7 @@ body {
     gap: 0.6rem;
     width: 95vw;
     padding: 10px 5px;
-    background-image: linear-gradient(#ffffff00, #00fd);
+    background-image: linear-gradient(#fff0, #00fd);
     border-radius: 10px;
     position: relative;
     top: 28%;
