@@ -46,34 +46,54 @@ body {
 .hero-navbar-phoneview {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 130px;
   width: 100vw;
   max-width: 100vw;
   z-index: 2;
-  background-color: #ffffffcb;
+  /* background-color: #ffffffcb; */
   scroll-behavior: smooth;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  border-bottom: ridge 4px #00f;
+  /* border-bottom: ridge 4px #00f; */
 }
 
 .hero-logo {
   font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.2);
+  border-radius: 20px;
+  padding: 0 20px 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-logo:hover {
   color: #00f;
+  background-color: #fff;
 }
 
 .hero-about-phoneview {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  gap: 1rem;
 }
 
 .hero-about-phoneview a {
   text-decoration: none;
+  color: #fff;
+  font-weight: 700;
 }
 
-.hero-about {
+.hero-about-phoneview a:hover {
+  text-decoration: underline #00f 2px;
+}
+
+/* .hero-about {
   text-align: center;
   display: flex;
   flex-flow: column;
@@ -91,8 +111,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
-}
-
+} */
 .content-card-period a {
   text-decoration: none;
   color: #fff;
@@ -101,12 +120,6 @@ body {
 .about-block-links a {
   text-decoration: none;
   color: #fff;
-}
-
-.hero-about a:hover {
-  background-color: #00f;
-  border-radius: 20px;
-  padding: 0 10px;
 }
 
 .hero-btns-holder {
@@ -126,6 +139,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   width: 5rem;
+  cursor: pointer;
 }
 
 .hero-btns:hover {
@@ -139,15 +153,15 @@ body {
   justify-content: left;
   flex-flow: column;
   position: relative;
-  top: 27%;
+  top: 15%;
   width: 83vw;
 }
 
 .hero-phrase {
   color: #fff;
   text-align: left;
-  font-size: 5vw;
-  width: 44vw;
+  font-size: 4.7vw;
+  width: 41vw;
   text-transform: capitalize;
 }
 
@@ -165,6 +179,13 @@ body {
   border-bottom-left-radius: 5px;
   padding: 0 3px;
 }
+
+.hero-watch-vid:hover {
+  background-color: #6464647d;
+  text-decoration: underline #00f 2px;
+  border: none;
+  border-radius: 15px;
+ }
 
 .hero-watch-vid-icon {
   width: 2.5vw;
@@ -185,7 +206,7 @@ body {
   border: 1px ridge #00f;
   border-radius: 10px;
   position: relative;
-  top: 31%;
+  top: 15%;
 }
 
 .hero-stat-hand {
@@ -196,6 +217,7 @@ body {
   width: 50%;
   gap: 0.5rem;
   padding: 5px;
+  cursor: pointer;
 }
 
 .hero-stat-hand:hover {
@@ -235,6 +257,7 @@ body {
   color: #00f;
   background-color: #fff0;
   font-size: 1.3vw;
+  cursor: pointer;
 }
 
 .hero-drop-down:hover {
@@ -271,6 +294,7 @@ body {
   width: 76vw;
   margin: 0 auto;
   padding: 10px 0;
+  background-color: #64646410;
 }
 
 .content-article {
@@ -377,7 +401,7 @@ body {
   flex-flow: column;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 0 10px;
   background-color: #d1d1d19c;
 }
 
@@ -398,6 +422,7 @@ body {
   padding: 10px 0;
   text-transform: capitalize;
   color: #fff;
+  cursor: pointer;
 }
 
 .content-card-caption {
@@ -500,6 +525,7 @@ body {
   font-size: 12px;
   font-weight: 700;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .content-witness-title {
@@ -595,6 +621,7 @@ body {
   padding: 10px;
   font-size: 11px;
   width: 5rem;
+  cursor: pointer;
 }
 
 .content-submit:hover {
@@ -708,6 +735,8 @@ body {
   padding: 1px 10px;
   border-radius: 20px;
   font-size: 14px;
+  cursor: pointer;
+
 }
 
 .about-block-links {
@@ -732,6 +761,12 @@ body {
   font-size: 12px;
   padding: 20px 10px;
   color: #0009;
+}
+
+@media screen and (max-width: 850px) {
+  .hero-about-phoneview {
+  display: none;
+  }
 }
 
 /* TABLET VIEW */
@@ -770,31 +805,41 @@ body {
   .hero-navbar-phoneview {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: relative;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 55px;
     width: 100vw;
     max-width: 100vw;
     z-index: 2;
-    background-color: #ffffffeb;
     scroll-behavior: smooth;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom: ridge 4px #00f;
   }
 
   .hero-logo {
     font-size: 30px;
     color: #00f;
+    background-color: #fff0;
+    padding: 0;
+  }
+  
+  .hero-logo:hover {
+    color: #fff;
+    background-color: #fff0;
   }
 
   .hero-about-phoneview {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 1rem;
   }
-
+  
   .hero-about-phoneview a {
     text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    /* font-weight: 700; */
   }
 
   .hero-about {
@@ -858,8 +903,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    position: relative;
-    top: 40%;
+    /* position: relative; */
+    /* top: 40%; */
     width: 85vw;
   }
 
@@ -905,7 +950,7 @@ body {
     border: 1px ridge #00f;
     border-radius: 5px;
     position: relative;
-    top: 54%;
+    top: 30%;
   }
 
   .hero-stat-hand {
@@ -1089,7 +1134,7 @@ body {
     flex-flow: column;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 0 10px;
     background-color: #d1d1d19c;
   }
 
@@ -1437,6 +1482,12 @@ body {
   }
 }
 
+@media screen and (max-width: 575px) {
+  .hero-about-phoneview {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .about-links {
     display: flex;
@@ -1511,11 +1562,7 @@ body {
     display: none;
   }
 
-  .hero-about-phoneview a {
-    text-decoration: none;
-  }
-
-  .hero-about {
+  /* .hero-about {
     text-align: center;
     display: none;
     flex-flow: column;
@@ -1532,8 +1579,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-  }
-
+  } */
   .content-card-period a {
     text-decoration: none;
     color: #fff;
@@ -1542,12 +1588,6 @@ body {
   .about-block-links a {
     text-decoration: none;
     color: #fff;
-  }
-
-  .hero-about a:hover {
-    background-color: #00f;
-    border-radius: 20px;
-    padding: 0 10px;
   }
 
   .hero-btns-holder {
@@ -1717,6 +1757,11 @@ body {
     flex-flow: column;
     width: inherit;
     gap: 1rem;
+    border-top: none;
+  }
+
+  .content-article-diff {
+    border-top: none;
   }
 
   .content-card-diff {
